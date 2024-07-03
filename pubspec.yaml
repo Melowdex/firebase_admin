@@ -18,7 +18,10 @@ dependencies:
   http:
   crypto_keys: ^0.3.0
   collection: ^1.15.0
-  gcloud: ^0.8.12
+  gcloud:
+    git:
+      url: https://github.com/Melowdex/gcloud.git
+      branch: master
   firebaseapis:
   snapshot: ^0.2.5
   _discoveryapis_commons: ^1.0.4
